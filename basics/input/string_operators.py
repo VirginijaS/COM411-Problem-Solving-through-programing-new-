@@ -5,9 +5,6 @@ print("Please enter the energy level")
 i = (input())
 print("Please enter the shield level")
 y = (input())
-print("Health has been set.")
-
-print(
-
+print("Health has been set.\n)
 
 
