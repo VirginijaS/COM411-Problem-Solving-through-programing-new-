@@ -1,10 +1,15 @@
-#create a program that allows us to improve Beep's health
+#create a program which shows Beep health
 print("Please enter the number of lives")
-x = (input())
+lives = int(input())
+
 print("Please enter the energy level")
-i = (input())
+energy = int(input())
+
 print("Please enter the shield level")
-y = (input())
-print("Health has been set.\n)
+shield = int(input())
 
+print("Healt has been set.")
 
+print(f"Lives: {'♥' * lives}")
+print(f"Energy: {'♦' * energy}")
+print(f"Shield: {'♦' * shield}")

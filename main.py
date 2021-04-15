@@ -1,15 +1,15 @@
-# Ask user to enter their Name amd calculate BMI
-print("What is your name human?")
-name = input()
-print("How old are you?")
-age = int(input())
-print("What is your height?")
-height = float(input())
-print("What is your weigh?")
-weight = float(input())
+#create a program which shows Beep health
+print("Please enter the number of lives")
+lives = int(input())
 
-#Calculate bmi
-bmi = weight / (height ** 2)
+print("Please enter the energy level")
+energy = int(input())
 
-#Display result
-print(f"{name} your bmi is {bmi}")
+print("Please enter the shield level")
+shield = int(input())
+
+print("Healt has been set.")
+
+print(f"Lives: {'♥' * lives}")
+print(f"Energy: {'♦' * energy}")
+print(f"Shield: {'♦' * shield}")
