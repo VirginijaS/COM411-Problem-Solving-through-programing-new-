@@ -1,4 +1,4 @@
-# Ask user to enter their Name
-print("What is your name human?")
-name = input()
-print("It's nice to meet you" ,name)
+#print user age
+print("What is your age?")
+age = input()
+print("Your age is" , age)
