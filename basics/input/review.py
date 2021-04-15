@@ -6,3 +6,4 @@ age = input()
 print("How many time to print symbol?")
 symbol = int(input())
 print(f"Symbol printed {'♥' * symbol}")
+
