@@ -1,8 +1,8 @@
-#create a program that allows us to specify what type of book is being read by Beep.
-
-print("What type of book is this?")
-book = (input())
-if book == "adventure":
-  print("\nI like adventure books!")
+#Ask user for the type of activity
+print("Please enter the activity to be performed.")
+activity = input()
+if(activity == "calculate"):
+  print("\nPerforming calculations...")
 else:
-  print("\nFinished reading book.")
+  print("\nPerforming activity...")
+print("\nActivity completed")
