@@ -1,14 +1,14 @@
 #check weather first number is bigger than the secondnumber.
 #Assume first_number and second_number are existing variables.
-print("Can you write first number?")
-a = int(input())
-print("Can you write second number?")
-b = int(input())
-if a  > b:
-  print("First is bigger\n")
-elif a < b:
-  print("First is smaller\n")
+print("Choose an option to identify who you are?")
+entity = (input())
+if entity == "human":
+  print("You are a human!\n")
+elif entity == "robot":
+  print("You are robot\n")
+elif entity == "animal":
+  print("You are an animal!\n")
 else:
-  print("Both are equal\n")
+  print("I do not know what you are!\n")
 
-print("Done")
+print("Analysis complete")
