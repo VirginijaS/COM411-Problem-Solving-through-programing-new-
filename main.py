@@ -1,13 +1,24 @@
-#create a program which help Beep to paint
-print("Towards which direction should I paint (up, down, left or right)?")
-direction = (input())
-if direction == "up":
-  print("\nI am painting in the upward direction!")
-elif direction == "down":
-  print("\nI am painting in the downward direction")
-elif direction == "left":
-  print("\nI am painting in the leftward direction")
-elif direction == "right\n":
-  print("\nI am painting in the rightward direction")
-else:
-  print("not sure which direction I am painting in")
+#Defining my own function to calculate area of a triangle
+def calculate_area(h=10,b=5):
+  area = 0.5*h*b
+  return area
+
+def run():
+  x = calculate_area(4,5)
+  x += 1
+  print(f"The area of triangle is {x}")
+#Call for the function print(calculate_area())
+
+#Call for the function
+run()
+
+
+
+
+
+
+#calculate_area(5)
+#calculate_area(b-20)
+#calculate_area(5)
+
+#Parameter - a value that you plug into the function
