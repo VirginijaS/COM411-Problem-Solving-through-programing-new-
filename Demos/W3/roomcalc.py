@@ -25,4 +25,3 @@ def run():
   l = float(input())
   print(f"You should pay £{price(name,room_area(w,l)):.2f}")
 
-run()
