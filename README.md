@@ -4,5 +4,5 @@ Week 1 - inputs/outputs and setups
 Week 2 - if/else and seminar
 Week 3 - calculation/seminar
 Week 4 - data/seminar
-Week 5
-Week 6
+Week 5 - recap/ data
+Week 6 - data

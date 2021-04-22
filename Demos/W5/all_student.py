@@ -33,5 +33,4 @@ def avr_mark(lista):
     total += std[1]
   return total/len(lista)
 
-
 print(avr_mark(all_stds()))
