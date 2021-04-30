@@ -6,3 +6,5 @@ Week 3 - calculation/seminar
 Week 4 - data/seminar
 Week 5 - recap/ data
 Week 6 - data
+Week 7
+Week 8 - data visualisation
